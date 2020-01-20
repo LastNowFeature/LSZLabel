@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LSZLabel_Example' do
+  pod 'LSZLabel', :path => '../'
+
+  target 'LSZLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
