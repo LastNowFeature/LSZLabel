@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LSZLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LSZLabel.'
+  s.summary          = 'TestLabel.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: A label Test cocoapoads.
                        DESC
-
+  s.swift_versions = '4.0'
   s.homepage         = 'https://github.com/LastNowFeature/LSZLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'LastNowFeature' => '111' }
+  s.author           = { 'LastNowFeature' => '15216704024@163.com' }
   s.source           = { :git => 'https://github.com/LastNowFeature/LSZLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

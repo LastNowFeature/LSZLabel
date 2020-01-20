@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08EC876F0FB8540AEBE0A3B5 /* LSZLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LSZLabel.podspec; path = ../LSZLabel.podspec; sourceTree = "<group>"; };
+		08EC876F0FB8540AEBE0A3B5 /* LSZLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSZLabel.podspec; path = ../LSZLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D23AA54DDAAB4996F16F699 /* Pods-LSZLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSZLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LSZLabel_Tests/Pods-LSZLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E9CF7F7E1221AEADC768521 /* Pods_LSZLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSZLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LSZLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSZLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F7FEFDAEC6FABD3C9E1DB44 /* Pods-LSZLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSZLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-LSZLabel_Tests/Pods-LSZLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E194E378503111DE4F0A62 /* Pods-LSZLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSZLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-LSZLabel_Example/Pods-LSZLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ABDBA36315BA75D85C6416FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ABDBA36315BA75D85C6416FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B8B918216691FDDD1B89522A /* Pods-LSZLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSZLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-LSZLabel_Example/Pods-LSZLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6B3F4A983FD4D6530E0C606 /* Pods_LSZLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSZLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3AC335F268BBDD924B37386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3AC335F268BBDD924B37386 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				1D23AA54DDAAB4996F16F699 /* Pods-LSZLabel_Tests.debug.xcconfig */,
 				6F7FEFDAEC6FABD3C9E1DB44 /* Pods-LSZLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

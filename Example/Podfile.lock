@@ -1,0 +1,16 @@
+PODS:
+  - LSZLabel (0.1.0)
+
+DEPENDENCIES:
+  - LSZLabel (from `../`)
+
+EXTERNAL SOURCES:
+  LSZLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LSZLabel: 7a0c5434773db0b124657f37b9d92cce0e2b5ca1
+
+PODFILE CHECKSUM: c057c2c07f7ce00f898d131bb027a7b8067fddc9
+
+COCOAPODS: 1.8.4

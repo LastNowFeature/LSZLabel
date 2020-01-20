@@ -1,0 +1,6 @@
+framework module LSZLabel {
+  umbrella header "LSZLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

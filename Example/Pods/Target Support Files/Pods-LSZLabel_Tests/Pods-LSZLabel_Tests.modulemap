@@ -1,0 +1,6 @@
+framework module Pods_LSZLabel_Tests {
+  umbrella header "Pods-LSZLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
