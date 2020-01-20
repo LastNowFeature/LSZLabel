@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import LSZLabel
 
 class ViewController: UIViewController {
+    let label = LSZLabel(frame: CGRect(x: 10, y: 20, width: 300, height: 100))
+   
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        label.text = "测试"
+        view.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {

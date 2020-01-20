@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016AF720FC9BE59D663FF6EB98DB3071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		015A641423B733ABE5D460EDE05F9ACC /* LSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7BBE5098DC27E9FC177A42E33FB8C /* LSView.swift */; };
 		1D2FF3402900F959475E8D6ABCDE5ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		25B2E6BA953F7CBCAAD6282884878198 /* Pods-LSZLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7618AFDCFA4901191396876E5FBDA7E /* Pods-LSZLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BF93B3EBEA48C76E22CB756F28CC0B6 /* Pods-LSZLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737FDCB1B57543C1E5BE71EDB1E4D231 /* Pods-LSZLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		379D1184374CC489EB1F3D7FC995B40C /* LSZLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F065FA83B3D400B25829F0BA8328D40E /* LSZLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		413E19D24F422FC81B6A1A3F8ADA23E4 /* Pods-LSZLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476810F3CA6208B8B68A2908CACB652A /* Pods-LSZLabel_Example-dummy.m */; };
-		9F2A94E223D579D50062729E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A94E123D579D50062729E /* .gitkeep */; };
-		9F2A94E423D579E30062729E /* LSZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A94E323D579E30062729E /* LSZLabel.swift */; };
+		4BDECA5544A9DB06F6C8CCD2D647729B /* LSZLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C667721A926C725C2D8747FF1D23495 /* LSZLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		884B64C68C57B7298B71934D11838FEC /* LSZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ADD9760E1E752D39E3698C5008F1DF /* LSZButton.swift */; };
+		B48562C34715FA7F29FE21E3A1026FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C365254B2EB5064BD68D349B4B08E1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ECA8062295C37A8CEACD92F3922B1162 /* LSZLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DB3EE8E58884B79F5ABD3853B07F9B /* LSZLabel-dummy.m */; };
+		D5DBFEFF736C408D2E8BC50EFF639272 /* LSZLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8F3A7E17C4BB3F53CBD2DB81994E04 /* LSZLabel-dummy.m */; };
+		D7A0A0D466677EBFBDCA7FA66FC301DB /* LSZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A33AB9AE521601DB0105FC0095F2C6 /* LSZLabel.swift */; };
 		EE1FFEDC1B380B7890A3F8F77A928875 /* Pods-LSZLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E749832346AA8A501035A8C3BFA3827 /* Pods-LSZLabel_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,54 +40,55 @@
 
 /* Begin PBXFileReference section */
 		015C17FB207BCCF4D519F0BD9922C406 /* Pods-LSZLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSZLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		0385CFFEA3F1BA4180C8CF56C3641F7A /* LSZLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LSZLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0822B6DFA8933A9FBA936F97CFC16FB1 /* LSZLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSZLabel-Info.plist"; sourceTree = "<group>"; };
-		08C3E842E3D037896F6812A316402E68 /* LSZLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LSZLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0385CFFEA3F1BA4180C8CF56C3641F7A /* LSZLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LSZLabel.framework; path = LSZLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A4A844E978F5C9C9F3A87B6D2A4AD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0E9584F76C9E4537A1407F45D8E7034F /* Pods-LSZLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSZLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		177EC3759B57255CAF104AAAE0654AAD /* LSZLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSZLabel-prefix.pch"; sourceTree = "<group>"; };
+		1DDB1ED017D86BB3B591449F398EDF81 /* LSZLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSZLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E749832346AA8A501035A8C3BFA3827 /* Pods-LSZLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSZLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		233278E38E7AB49C536D3D85FB20706E /* Pods-LSZLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSZLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2C915F73F5630FEDDC47FC655595A2FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		314F56EC8F9895A63EFFB26D6BDC2EE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		41DB3EE8E58884B79F5ABD3853B07F9B /* LSZLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSZLabel-dummy.m"; sourceTree = "<group>"; };
+		3C667721A926C725C2D8747FF1D23495 /* LSZLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSZLabel-umbrella.h"; sourceTree = "<group>"; };
 		476810F3CA6208B8B68A2908CACB652A /* Pods-LSZLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSZLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		497211B577C4CB9192ECFA8B799EE6E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		57BE28C1326714A0F2F324972160527B /* Pods-LSZLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSZLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		679C47E7136D0F05C6EA10C2D1A4F174 /* Pods_LSZLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSZLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679C47E7136D0F05C6EA10C2D1A4F174 /* Pods_LSZLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSZLabel_Tests.framework; path = "Pods-LSZLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9CEFD404181163A7E8D2DEAC2876E5 /* Pods-LSZLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSZLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		6E50FBC0D67B4F51F67A7EDA04D9A3B6 /* LSZLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSZLabel.modulemap; sourceTree = "<group>"; };
 		737FDCB1B57543C1E5BE71EDB1E4D231 /* Pods-LSZLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSZLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		812B80BC4255648300113ACA1F7B5D40 /* Pods_LSZLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSZLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74697F1DDF64F05AB7B543CC6D464F8D /* LSZLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSZLabel-Info.plist"; sourceTree = "<group>"; };
+		7B8F3A7E17C4BB3F53CBD2DB81994E04 /* LSZLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSZLabel-dummy.m"; sourceTree = "<group>"; };
+		812B80BC4255648300113ACA1F7B5D40 /* Pods_LSZLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSZLabel_Example.framework; path = "Pods-LSZLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C188B59C0E90A78D949D9B2BFF452A /* Pods-LSZLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSZLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CCEFBDE253CF4A70A2A333AB3F7EC03 /* Pods-LSZLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSZLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A33AB9AE521601DB0105FC0095F2C6 /* LSZLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSZLabel.swift; path = LSZLabel/Classes/LSZLabel.swift; sourceTree = "<group>"; };
+		96ADD9760E1E752D39E3698C5008F1DF /* LSZButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSZButton.swift; path = LSZLabel/Classes/LSZButton.swift; sourceTree = "<group>"; };
 		9A2F4019A3DB9CCAEBFCE407B1991EC4 /* Pods-LSZLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSZLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9A6F9443565D515F78E67CCEBAAFF469 /* Pods-LSZLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSZLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B26C154CB84111D22469D27BA77179D /* Pods-LSZLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSZLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2A94E123D579D50062729E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		9F2A94E323D579E30062729E /* LSZLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSZLabel.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCD49EE0E1D2CF27311B59B28BA4FC12 /* LSZLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSZLabel-prefix.pch"; sourceTree = "<group>"; };
 		C15BCB1F48F2AB0E858112F30EF98E89 /* Pods-LSZLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSZLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		C33D1B0F2B35DEF819A769013E264EC3 /* Pods-LSZLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSZLabel_Example.modulemap"; sourceTree = "<group>"; };
 		C7618AFDCFA4901191396876E5FBDA7E /* Pods-LSZLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSZLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		CDFFD1F0A9A5A44F1A3360EC3FB6E772 /* LSZLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSZLabel.xcconfig; sourceTree = "<group>"; };
-		F065FA83B3D400B25829F0BA8328D40E /* LSZLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSZLabel-umbrella.h"; sourceTree = "<group>"; };
+		D7653D21B8D8F79EEF189278C440E678 /* LSZLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSZLabel.modulemap; sourceTree = "<group>"; };
+		DF338E3F1B51F55A732636AC1AAAC78F /* LSZLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSZLabel.xcconfig; sourceTree = "<group>"; };
 		F1A0092DAD90AB39D01BCFFCCD44AE77 /* Pods-LSZLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSZLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF7BBE5098DC27E9FC177A42E33FB8C /* LSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LSView.swift; path = LSZLabel/Classes/LSView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1C063891905636CEA4F1958C598192DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48562C34715FA7F29FE21E3A1026FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44786A5D7B482AA650B6C4B3393673A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D2FF3402900F959475E8D6ABCDE5ED2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D2967C513F13AE92B2CFC57576BB118 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				016AF720FC9BE59D663FF6EB98DB3071 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FD6F1BCABB63224EFC4B7C5BC20F68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				314F56EC8F9895A63EFFB26D6BDC2EE9 /* LICENSE */,
+				1DDB1ED017D86BB3B591449F398EDF81 /* LSZLabel.podspec */,
+				07A4A844E978F5C9C9F3A87B6D2A4AD1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2908767408E9AE07328AD2805FEBD5D6 /* Pods-LSZLabel_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,18 +130,26 @@
 			path = "Target Support Files/Pods-LSZLabel_Example";
 			sourceTree = "<group>";
 		};
-		2E72782E0DC9AA50DAF0EA1C3CE7F9C5 /* Support Files */ = {
+		50AA140D66F3CCD69834CE079B17E961 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E50FBC0D67B4F51F67A7EDA04D9A3B6 /* LSZLabel.modulemap */,
-				CDFFD1F0A9A5A44F1A3360EC3FB6E772 /* LSZLabel.xcconfig */,
-				41DB3EE8E58884B79F5ABD3853B07F9B /* LSZLabel-dummy.m */,
-				0822B6DFA8933A9FBA936F97CFC16FB1 /* LSZLabel-Info.plist */,
-				177EC3759B57255CAF104AAAE0654AAD /* LSZLabel-prefix.pch */,
-				F065FA83B3D400B25829F0BA8328D40E /* LSZLabel-umbrella.h */,
+				D7653D21B8D8F79EEF189278C440E678 /* LSZLabel.modulemap */,
+				DF338E3F1B51F55A732636AC1AAAC78F /* LSZLabel.xcconfig */,
+				7B8F3A7E17C4BB3F53CBD2DB81994E04 /* LSZLabel-dummy.m */,
+				74697F1DDF64F05AB7B543CC6D464F8D /* LSZLabel-Info.plist */,
+				BCD49EE0E1D2CF27311B59B28BA4FC12 /* LSZLabel-prefix.pch */,
+				3C667721A926C725C2D8747FF1D23495 /* LSZLabel-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LSZLabel";
+			sourceTree = "<group>";
+		};
+		581FFF31D6A6DCCEC014FA379E969CC9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF5835BA79943AA793716F5A47912180 /* LSZLabel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5FD5AEFF36A5DEA639B41861E45CB1D2 /* Pods-LSZLabel_Tests */ = {
@@ -146,24 +166,6 @@
 			);
 			name = "Pods-LSZLabel_Tests";
 			path = "Target Support Files/Pods-LSZLabel_Tests";
-			sourceTree = "<group>";
-		};
-		63DD7A3A84AF42951AC44CBC209C42E0 /* LSZLabel */ = {
-			isa = PBXGroup;
-			children = (
-				A416884E9EE17271949E248376D0A540 /* Pod */,
-				2E72782E0DC9AA50DAF0EA1C3CE7F9C5 /* Support Files */,
-			);
-			name = LSZLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		695AA29D7CE6243E2F9BA7F3F1FD09C5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				63DD7A3A84AF42951AC44CBC209C42E0 /* LSZLabel */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		71A52955E4EDFEB9B5CD6ACA082926B8 /* Products */ = {
@@ -185,25 +187,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9F2A94E023D579D50062729E /* Classes */ = {
+		BF5835BA79943AA793716F5A47912180 /* LSZLabel */ = {
 			isa = PBXGroup;
 			children = (
-				9F2A94E123D579D50062729E /* .gitkeep */,
-				9F2A94E323D579E30062729E /* LSZLabel.swift */,
+				FBF7BBE5098DC27E9FC177A42E33FB8C /* LSView.swift */,
+				96ADD9760E1E752D39E3698C5008F1DF /* LSZButton.swift */,
+				93A33AB9AE521601DB0105FC0095F2C6 /* LSZLabel.swift */,
+				04FD6F1BCABB63224EFC4B7C5BC20F68 /* Pod */,
+				50AA140D66F3CCD69834CE079B17E961 /* Support Files */,
 			);
-			name = Classes;
-			path = LSZLabel/Classes;
-			sourceTree = "<group>";
-		};
-		A416884E9EE17271949E248376D0A540 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9F2A94E023D579D50062729E /* Classes */,
-				2C915F73F5630FEDDC47FC655595A2FB /* LICENSE */,
-				08C3E842E3D037896F6812A316402E68 /* LSZLabel.podspec */,
-				497211B577C4CB9192ECFA8B799EE6E1 /* README.md */,
-			);
-			name = Pod;
+			name = LSZLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -218,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				695AA29D7CE6243E2F9BA7F3F1FD09C5 /* Development Pods */,
+				581FFF31D6A6DCCEC014FA379E969CC9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				71A52955E4EDFEB9B5CD6ACA082926B8 /* Products */,
 				78C721D79F9EA745F213888903B66139 /* Targets Support Files */,
@@ -236,19 +230,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A02E5095E98249E108DAF5C3704396B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				379D1184374CC489EB1F3D7FC995B40C /* LSZLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6BC3561C0CB8847C894FE921842F525A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BF93B3EBEA48C76E22CB756F28CC0B6 /* Pods-LSZLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE814EAE0FF6D6A603407C2C9F0632A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDECA5544A9DB06F6C8CCD2D647729B /* LSZLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		091CFFFF15F071D3B9C5A47140C4E0E9 /* LSZLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DB96A204DB29EA680B031E3AEEF6A0D /* Build configuration list for PBXNativeTarget "LSZLabel" */;
+			buildConfigurationList = 00D0B49AC1D3C17586055B2A1797E050 /* Build configuration list for PBXNativeTarget "LSZLabel" */;
 			buildPhases = (
-				5A02E5095E98249E108DAF5C3704396B /* Headers */,
-				EF50EAF8647AF0D16F31438DAB7B2E38 /* Sources */,
-				5D2967C513F13AE92B2CFC57576BB118 /* Frameworks */,
-				C4FE042344C6144C04C977829300F0BA /* Resources */,
+				BAE814EAE0FF6D6A603407C2C9F0632A /* Headers */,
+				5FFA35602343381EF127AABD34A07F28 /* Sources */,
+				1C063891905636CEA4F1958C598192DA /* Frameworks */,
+				EBEA290C6F1FDA0F9496FC67A03F4020 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,11 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					091CFFFF15F071D3B9C5A47140C4E0E9 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -361,11 +350,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4FE042344C6144C04C977829300F0BA /* Resources */ = {
+		EBEA290C6F1FDA0F9496FC67A03F4020 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2A94E223D579D50062729E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,20 +375,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5FFA35602343381EF127AABD34A07F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015A641423B733ABE5D460EDE05F9ACC /* LSView.swift in Sources */,
+				884B64C68C57B7298B71934D11838FEC /* LSZButton.swift in Sources */,
+				D5DBFEFF736C408D2E8BC50EFF639272 /* LSZLabel-dummy.m in Sources */,
+				D7A0A0D466677EBFBDCA7FA66FC301DB /* LSZLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		910F1604438523B4CF1B91339330E6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE1FFEDC1B380B7890A3F8F77A928875 /* Pods-LSZLabel_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF50EAF8647AF0D16F31438DAB7B2E38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F2A94E423D579E30062729E /* LSZLabel.swift in Sources */,
-				ECA8062295C37A8CEACD92F3922B1162 /* LSZLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +446,38 @@
 			};
 			name = Release;
 		};
+		2575C4BDA077585E8C062625D481C8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF338E3F1B51F55A732636AC1AAAC78F /* LSZLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSZLabel/LSZLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSZLabel/LSZLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSZLabel/LSZLabel.modulemap";
+				PRODUCT_MODULE_NAME = LSZLabel;
+				PRODUCT_NAME = LSZLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2FFA211F4A146B4110202D82DE875F85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B26C154CB84111D22469D27BA77179D /* Pods-LSZLabel_Example.release.xcconfig */;
@@ -483,39 +505,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		321A5C416983CA3D0F8716DF904057C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDFFD1F0A9A5A44F1A3360EC3FB6E772 /* LSZLabel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSZLabel/LSZLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSZLabel/LSZLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSZLabel/LSZLabel.modulemap";
-				PRODUCT_MODULE_NAME = LSZLabel;
-				PRODUCT_NAME = LSZLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,7 +565,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -609,6 +599,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6556EB0208DFD8EAA48E95F8700003C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF338E3F1B51F55A732636AC1AAAC78F /* LSZLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSZLabel/LSZLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSZLabel/LSZLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSZLabel/LSZLabel.modulemap";
+				PRODUCT_MODULE_NAME = LSZLabel;
+				PRODUCT_NAME = LSZLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -679,39 +700,6 @@
 			};
 			name = Debug;
 		};
-		CEC54DD6371E5A15A55D77EA441AC1BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDFFD1F0A9A5A44F1A3360EC3FB6E772 /* LSZLabel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSZLabel/LSZLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSZLabel/LSZLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSZLabel/LSZLabel.modulemap";
-				PRODUCT_MODULE_NAME = LSZLabel;
-				PRODUCT_NAME = LSZLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D42DF67D47DCBD930EF895347E0B3DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88C188B59C0E90A78D949D9B2BFF452A /* Pods-LSZLabel_Example.debug.xcconfig */;
@@ -748,11 +736,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DB96A204DB29EA680B031E3AEEF6A0D /* Build configuration list for PBXNativeTarget "LSZLabel" */ = {
+		00D0B49AC1D3C17586055B2A1797E050 /* Build configuration list for PBXNativeTarget "LSZLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEC54DD6371E5A15A55D77EA441AC1BB /* Debug */,
-				321A5C416983CA3D0F8716DF904057C5 /* Release */,
+				B6556EB0208DFD8EAA48E95F8700003C /* Debug */,
+				2575C4BDA077585E8C062625D481C8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

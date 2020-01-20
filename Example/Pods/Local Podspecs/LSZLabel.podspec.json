@@ -1,15 +1,16 @@
 {
   "name": "LSZLabel",
   "version": "0.1.0",
-  "summary": "A short description of LSZLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "TestLabel.",
+  "description": "TODO: A label Test cocoapoads.",
+  "swift_versions": "4.0",
   "homepage": "https://github.com/LastNowFeature/LSZLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "LastNowFeature": "111"
+    "LastNowFeature": "15216704024@163.com"
   },
   "source": {
     "git": "https://github.com/LastNowFeature/LSZLabel.git",
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LSZLabel/Classes/**/*"
+  "source_files": "LSZLabel/Classes/**/*",
+  "swift_version": "4.0"
 }
