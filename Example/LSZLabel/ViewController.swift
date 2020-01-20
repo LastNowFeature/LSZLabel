@@ -11,7 +11,8 @@ import LSZLabel
 
 class ViewController: UIViewController {
     let label = LSZLabel(frame: CGRect(x: 10, y: 20, width: 300, height: 100))
-   
+    
+    
     
     
 
